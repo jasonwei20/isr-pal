@@ -11,8 +11,8 @@ pickle_path = join(dataset, 'all_vocab.p')
 
 
 ### training
-aug_types = ['sw']#, 'sw_sr']
-model_types = ['cnn']#, 'rnn']
+aug_types = ['no_aug', 'sr', 'sw', 'sw_sr']
+model_types = ['lr', 'cnn', 'rnn']
 
 i_dev, p_dev = '/'.join([dataset, 'data', 'i_dev.txt']), '/'.join([dataset, 'data', 'p_dev.txt'])
 
