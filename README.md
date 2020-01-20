@@ -1,6 +1,7 @@
 # Deep Learning for Bias Detection in the Israeli-Palestinian Conflict
 
-This is the code for training various text classifiers on detecting bias for texts on the Israeli-Palestinian conflict. Data will be uploaded soon.
+This is the code for training various text classifiers on detecting bias for texts on the Israeli-Palestinian conflict. 
+Data for the ip-news dataset is here: https://github.com/jasonwei20/isr-pal/tree/master/ipnews-dataset
 
 Models supported (see `model_types` in `config.py`): 
 * Logistic Regression 
